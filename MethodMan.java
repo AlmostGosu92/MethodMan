@@ -16,13 +16,12 @@ public class MethodMan {
 
 	public void randomMethodMan() {
 		int quoteNr =(int) (Math.random()*10);
-		
 		JOptionPane.showMessageDialog(null, quotes[quoteNr]);
 			
 		
 	}
 	public void selectedMethodMan(int quoteNr) {
-			JOptionPane.showMessageDialog(null, quotes[quoteNr]);
+		JOptionPane.showMessageDialog(null, quotes[quoteNr]);
 	}
 }
 

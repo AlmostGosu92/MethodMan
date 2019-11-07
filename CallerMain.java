@@ -8,7 +8,6 @@ public class CallerMain {
 		MethodMan methodMan = new MethodMan();
 		boolean loop = true;
 		while(loop) {
-			
 			String in = JOptionPane.showInputDialog("Welcome to the Method Man quote supplier!\nChoose a quote nr from 1 to 10 or leave blank for a random quote:");
 			
 			if(in != null) {
