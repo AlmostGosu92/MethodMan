@@ -15,7 +15,7 @@ public class MethodMan {
 			"Somebody wrote a script around us, but Dustin Abraham came with the best one."};
 
 	public void randomMethodMan() {
-		int quoteNr =(int) (Math.random()*10);
+		int quoteNr = (int) (Math.random()*10);
 		JOptionPane.showMessageDialog(null, quotes[quoteNr]);
 			
 		
