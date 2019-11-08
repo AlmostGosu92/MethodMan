@@ -21,7 +21,7 @@ public class MethodMan {
 		
 	}
 	public void selectedMethodMan(int quoteNr) {
-		JOptionPane.showMessageDialog(null, quotes[quoteNr]);
+		JOptionPane.showMessageDialog(null, quotes[quoteNr -1]);
 	}
 }
 
